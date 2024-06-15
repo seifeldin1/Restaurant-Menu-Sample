@@ -1,0 +1,68 @@
+.title{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    
+}
+
+h1{
+    background-color:brown;
+}
+
+dd{
+    /* line-height: 0%; */
+    margin: 0%;
+    font-weight: normal;
+}
+
+.burger , .pizza{
+    border-radius: 100px;
+    width: 40%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+
+.burgerpictures, .pizzapictures{
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        /* margin-left: 50%; */
+        /* width: 50%; */
+        margin-top: 0;
+}
+
+
+*[type] {
+    background-color: #f00;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 25px;
+}
+
+
+*{
+    background-color: burlywood;
+}
